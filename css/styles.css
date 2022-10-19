@@ -20,8 +20,8 @@ a {
 }
 a:link { color:#0271fb; }
 a:visited { color:#bd02fb; }
-a:hover, a:focus { color:#000; }
-a:active { color:#fb0e02; }
+a:hover, a:focus { color: #0a9496; }
+a:active { color:#fba402; }
 
 h1{
     font-size: 2rem;
@@ -37,6 +37,7 @@ header > img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-height:20vh;
 }
 nav{
     justify-content: center;
@@ -44,6 +45,7 @@ nav{
 nav ul{
     list-style: none;
     text-align: center;
+    padding-inline-start: 0px;
 
 }
 nav li{
@@ -71,6 +73,8 @@ nav li{
 }
 section{
     display: flex;
+    color:  rgb(191, 179, 164);
+    text-align: center;
 }
 article{
     flex: 1;
@@ -82,6 +86,21 @@ header img {
     height:auto;
     max-width:40%;
     max-height:40vh;
+}
+.promo{
+    justify-content: center;
+}
+
+.promo img{
+    width:auto;
+    height:auto;
+    max-width:80%;
+    max-height:30vh;
+}
+
+.address{
+    justify-content: center;
+ 
 }
 footer{
     display: flex;
