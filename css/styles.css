@@ -27,7 +27,7 @@ h1{
     font-size: 2rem;
 }
 h2{
-    font-size: 1rem;
+    font-size: 2rem;
     color: #0a9496;
 }
 header {
@@ -89,15 +89,25 @@ header img {
 }
 .promo{
     justify-content: center;
+
 }
 
 .promo img{
+ 
     width:auto;
     height:auto;
     max-width:80%;
     max-height:30vh;
+    border-radius: 10%;
 }
-
+article img{
+    flex: 1;
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:50vh;
+    border-radius: 10%;  
+}
 .address{
     justify-content: center;
  
