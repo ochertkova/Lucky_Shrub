@@ -6,3 +6,5 @@ This is a web page for a fictional client named Lucky Shrub.
 
 The page is being developed for an assignment in Meta course "HTML and CSS in depth".
 
+The web page is located at:
+https://ochertkova.github.io/Lucky_Shrub/
